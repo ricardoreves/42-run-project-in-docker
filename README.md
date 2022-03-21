@@ -21,14 +21,33 @@ docker build -t 42/ubuntu .
 ```
 
 4. Create an alias `ftdocker`
+
 ##### zsh
+Open your `~/.zshrc`
 ```
-echo 'alias ftdocker="docker run -it --rm -v $(pwd):/project 42/ubuntu"' >> ~/.zshrc
+vim ~/.zshrc
+```
+Append the line below
+```
+alias ftdocker='docker run -it --rm -v $(pwd):/project 42/ubuntu'
+```
+Reload your `~/.zshrc`
+```
+source ~/.zshrc
 ```
 
 ##### bash
+Open your `~/.bashrc`
 ```
-echo 'alias ftdocker="docker run -it --rm -v $(pwd):/project 42/ubuntu"' >> ~/.bashrc
+vim ~/.bashrc
+```
+Append the line below
+```
+alias ftdocker='docker run -it --rm -v $(pwd):/project 42/ubuntu'
+```
+Reload your `~/.bashrc`
+```
+source ~/.bashrc
 ```
 
 
