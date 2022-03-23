@@ -107,5 +107,5 @@ docker container ls
 ```
 
 ### :books: References
-- [codefresh.io](https://codefresh.io/docker-tutorial/build-docker-image-dockerfiles/) - build docker image with dockerfiles
+- [codefresh.io](https://codefresh.io/docker-tutorial/build-docker-image-dockerfiles/) - Build docker image with dockerfiles
 - [docs.docker.com](https://docs.docker.com/desktop/mac/) - Docker Desktop for Mac user manual
