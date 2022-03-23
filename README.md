@@ -11,6 +11,16 @@ Allows you to test 42 projects in a linux environment and use valgrind to detect
 - [Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 - [MacOS](https://docs.docker.com/desktop/mac/install/)
 
+#### MacOS
+1. You can configure shared paths from 
+```
+Docker -> Preferences... -> Resources -> File Sharing
+```
+2. Add path to expored directory
+```
+/goinfre/login42
+```
+
 ### Installation
 
 1. Clone the repo
