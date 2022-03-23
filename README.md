@@ -3,7 +3,15 @@
 ## 🪧 Overview
 Allows you to test 42 projects in a linux environment and use valgrind to detect memory leaks.
 
+
+
 ## :rocket: Getting started
+### Prerequisites
+1. Install Docker on your machine
+- [Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+- [MacOS](https://docs.docker.com/desktop/mac/install/)
+
+### Installation
 
 1. Clone the repo
 ```
